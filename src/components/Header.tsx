@@ -7,21 +7,27 @@ const Header = () => {
         <div className="flex items-center">
           <a
             href="#"
-            className="flex items-center text-2xl font-semibold text-gray-900 dark:text-white"
+            className="flex items-center text-[20px] font-semibold text-gray-900 dark:text-white"
           >
             <img
               className="w-20 h-20 mr-2"
               src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg"
               alt="logo"
             />
-            Clínica Frontend
+            Clínica de Integración Medica “INMECA”, C.A
           </a>
         </div>
         <div className="border-2 border-orange-50">
-          <ul className="flex gap-x-6 text-2xl font-semibold">
-            <li className="cursor-pointer">Inicio</li>
-            <li className="cursor-pointer">Quiénes somos</li>
-            <li className="cursor-pointer">Contáctenos</li>
+          <ul className="flex gap-x-6 text-[20px] font-semibold">
+            <li className="cursor-pointer">
+              <a href="#inicio">Inicio</a>
+            </li>
+            <li className="cursor-pointer">
+              <a href="#quienes-somos">Quiénes somos</a>
+            </li>
+            <li className="cursor-pointer">
+              <a href="#contactenos">Contáctenos</a>
+            </li>
           </ul>
         </div>
       </div>
