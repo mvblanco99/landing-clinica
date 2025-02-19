@@ -1,6 +1,4 @@
-import React from "react";
 import Header from "../components/Header";
-import image from "../assets/image.jpg"; // Update the path to the correct image file
 import FotoClinica from "../assets/Foto_Clinica.jpg";
 import {
   FcBullish,
@@ -25,15 +23,6 @@ const Main = () => {
             </p>
           </div>
         </section>
-        {/* <section className="w-full flex justify-center rounded-md">
-          <div className="w-full h-96 overflow-hidden">
-        <img
-          src={FotoClinica}
-          alt="Banner"
-          className="w-full h-full object-fill rounded-md"
-        />
-          </div>
-        </section> */}
 
         <div className="relative font-sans before:absolute before:w-full before:h-full before:inset-0 before:bg-black before:opacity-50 before:z-10">
           <img
