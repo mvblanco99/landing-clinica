@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "../assets/Logo.png";
 
 const Header = () => {
   return (
@@ -9,11 +10,7 @@ const Header = () => {
             href="#"
             className="flex items-center text-[20px] font-semibold text-gray-900 dark:text-white"
           >
-            <img
-              className="w-20 h-20 mr-2"
-              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg"
-              alt="logo"
-            />
+            <img className="w-20 h-20 mr-2" src={Logo} alt="logo" />
             Clínica de Integración Medica “INMECA”, C.A
           </a>
         </div>
