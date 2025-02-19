@@ -80,6 +80,53 @@ const Main = () => {
 
         <section className="w-full flex flex-col items-center justify-center p-6">
           <div className="w-full lg:w-[1024px] max-w-[1280px] text-center">
+            <div className="grid grid-cols-12">
+              {/* Misión alineada a la izquierda */}
+              <div className="col-span-8 w-full flex flex-col items-center justify-center px-8 py-6 bg-gray-100 dark:bg-gray-800 rounded-md">
+                <h2 className="text-2xl font-semibold text-gray-900 dark:text-white">
+                  Visión
+                </h2>
+                <p className="text-lg text-gray-500 dark:text-gray-300 mt-4 text-justify">
+                  Consolidarnos como el centro de salud líder en la región
+                  oriental del país, reconocido por nuestra excelencia en la
+                  atención médica y la calidad en el servicio. Distinguiéndonos
+                  por un firme compromiso con la ética profesional, la
+                  responsabilidad y un equipo altamente capacitado, dedicado a
+                  garantizar el bienestar y la seguridad de nuestros pacientes.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="w-full flex flex-col items-center justify-center p-6">
+          <div className="w-full lg:w-[1024px] max-w-[1280px] text-center">
+            <div className="grid grid-cols-12">
+              {/* Visión alineada a la derecha */}
+              <div className="col-span-10 col-start-3 w-full flex flex-col items-center justify-center px-8 py-6 bg-gray-100 dark:bg-gray-800 rounded-md">
+                <h2 className="text-2xl font-semibold text-gray-900 dark:text-white">
+                  Misión
+                </h2>
+                <p className="text-lg text-gray-500 dark:text-gray-300 mt-4 text-justify">
+                  Somos un equipo multidisciplinario de profesionales altamente
+                  capacitados, guiados por una profunda vocación de servicio y
+                  compromiso con la excelencia. Brindamos atención médica
+                  integral, ofreciendo diagnósticos precisos y tratamientos
+                  oportunos, respaldados por tecnología de vanguardia y
+                  protocolos clínicos actualizados. Prestamos nuestros servicios
+                  con eficiencia, calidez y accesibilidad, priorizando el
+                  bienestar y la satisfacción de nuestros pacientes, sus
+                  familias y la comunidad. A través de nuestra labor, impulsamos
+                  el desarrollo del sector salud y avanzamos hacia la
+                  consolidación de nuestro liderazgo en la región.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="w-full flex flex-col items-center justify-center p-6">
+          <div className="w-full lg:w-[1024px] max-w-[1280px] text-center">
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-white text-center flex justify-center gap-x-2">
               <div className="flex justify-center text-4xl">
                 <FcCollect />
@@ -221,7 +268,7 @@ const Main = () => {
             © {new Date().getFullYear()} Clínica de Integración Medica “INMECA”,
             C.A. Todos los derechos reservados.
           </p>
-          <p className="text-sm text-gray-500 dark:text-gray-300 mt-2">//</p>
+          <p className="text-sm text-gray-500 dark:text-gray-300 mt-2"></p>
         </div>
       </footer>
     </div>
@@ -229,37 +276,3 @@ const Main = () => {
 };
 
 export default Main;
-
-// <section className="w-full flex flex-col lg:flex-row items-start justify-center p-6">
-//   <div className="w-full lg:w-1/2 p-4 bg-gray-100 dark:bg-gray-800">
-//     <h2 className="text-2xl font-semibold text-gray-900 dark:text-white">
-//       Misión
-//     </h2>
-//     <p className="text-lg text-gray-500 dark:text-gray-300 mt-4">
-//       Somos un equipo multidisciplinario de profesionales altamente
-//       capacitados, guiados por una profunda vocación de servicio y
-//       compromiso con la excelencia. Brindamos atención médica integral,
-//       ofreciendo diagnósticos precisos y tratamientos oportunos,
-//       respaldados por tecnología de vanguardia y protocolos clínicos
-//       actualizados. Prestamos nuestros servicios con eficiencia, calidez
-//       y accesibilidad, priorizando el bienestar y la satisfacción de
-//       nuestros pacientes, sus familias y la comunidad. A través de
-//       nuestra labor, impulsamos el desarrollo del sector salud y
-//       avanzamos hacia la consolidación de nuestro liderazgo en la
-//       región.
-//     </p>
-//   </div>
-//   <div className="w-full lg:w-1/2 p-4">
-//     <h2 className="text-2xl font-semibold text-gray-900 dark:text-white">
-//       Visión
-//     </h2>
-//     <p className="text-lg text-gray-500 dark:text-gray-300 mt-4">
-//       Consolidarnos como el centro de salud líder en la región oriental
-//       del país, reconocido por nuestra excelencia en la atención médica
-//       y la calidad en el servicio. Distinguiéndonos por un firme
-//       compromiso con la ética profesional, la responsabilidad y un
-//       equipo altamente capacitado, dedicado a garantizar el bienestar y
-//       la seguridad de nuestros pacientes.
-//     </p>
-//   </div>
-// </section>
