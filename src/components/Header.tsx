@@ -13,7 +13,7 @@ const Header = () => {
             Clínica de Integración Medica “INMECA”, C.A
           </a>
         </div>
-        <div className="border-2 border-orange-50">
+        <div className="">
           <ul className="flex gap-x-6 text-[20px] font-semibold">
             <li className="cursor-pointer">
               <a href="#inicio">Inicio</a>
